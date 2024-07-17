@@ -25,7 +25,7 @@ for x in range(1,6):
         break
     elif x==5 and guess != answer:
         time.sleep(1)
-        print("Damn, You lose. WOMP WOMP")
+        print("You lose :(")
         break
     if len(guess)>5:
         print("that was too large, you lose a guess")
